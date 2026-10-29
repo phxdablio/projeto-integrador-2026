@@ -1,4 +1,4 @@
-# 📘 Project API - Primora
+# 📘 Projeto API - Primora
 
 ![Python](https://img.shields.io/badge/Python-3.12+-3776AB?logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-5.0+-2BA977?logo=django&logoColor=white)
@@ -17,9 +17,20 @@
 **Prof. Diego Martins de Oliveira**\
 Github: (https://github.com/diegomoliveiraprof)
 
+
 ## Sumário
 
-**(...)**
+**&bull; [Visão Geral](#visão-geral)**
+
+**&bull; [Pacotes Utilizados](#pacotes-utilizados)**
+
+**&bull; [Estrutura do Projeto](#estrutura-do-projeto)**
+
+**&bull; [Diagrama de Banco de Dados](#diagrama-de-banco-de-dados)**
+
+**&bull; [Documentação API](#documentação-api)**
+
+**&bull; [Configuração do Ambiente](#configuração-do-ambiente)**
 
 ## Visão geral
 
@@ -65,7 +76,46 @@ O sistema organiza o acesso aos dados cadastrais e operacionais, estabelecendo r
 
 ## Estrutura do projeto
 
-**(...)**
+```bash
+projeto_api/
+├── manage.py
+├── requirements.txt
+├── db.sqlite3
+├── config/
+│   ├── settings.py
+│   ├── urls.py
+│   ├── asgi.py
+│   └── wsgi.py
+├── clientes/
+│   ├── models.py
+│   ├── views.py
+│   ├── serializers.py
+│   ├── urls.py
+│   ├── admin.py
+│   ├── tests.py
+│   └── migrations/
+├── vendedores/
+│   ├── models.py
+│   ├── views.py
+│   ├── serializers.py
+│   ├── urls.py
+│   ├── admin.py
+│   ├── tests.py
+│   └── migrations/
+└── docs/
+    └── database_diagram.png
+```
+
+&bull; **config/ →** configurações principais do Django, incluindo banco de dados, autenticação e rotas globais da API.
+
+&bull; **clientes/ →** aplicação responsável pelo cadastro, consulta, atualização e exclusão de clientes, além dos filtros por bairro e vendedor.
+
+&bull; **vendedores/ →** aplicação responsável pelo gerenciamento de vendedores e pela consulta de seus respectivos clientes.
+
+&bull; **db.sqlite3 →** arquivo do banco de dados SQLite que armazena os registros.
+
+&bull; **docs/ →** documentação auxiliar do projeto, incluindo o Diagrama Entidade-Relacionamento (DER).
+
 
 ## Diagrama de banco de dados
 
@@ -115,8 +165,9 @@ O sistema organiza o acesso aos dados cadastrais e operacionais, estabelecendo r
 
 A documentação interativa está disponível em:
 
-&bull; `/api/docs/`
-&bull; `/api/docs/redoc/`
+&bull; `/api/docs/` → Swagger UI / spectacular
+
+&bull; `/api/docs/redoc/` → ReDoc
 
 | Método | Endpoint | Descrição | Autenticação |
 |---|---|---|---|
@@ -166,5 +217,3 @@ A documentação interativa está disponível em:
    python manage.py runserver
    ```
 
-
-   ```
