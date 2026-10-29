@@ -41,6 +41,25 @@ INSTALLED_APPS = [
     'rest_framework',
     'drf_spectacular',
 ]
+# Configurações do Django REST Framework
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.TokenAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+    ],
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAuthenticatedOrReadOnly',
+    ],
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
+}
+
+# Configurações da Documentação da API
+SPECTACULAR_SETTINGS = {
+    'TITLE': 'API Distribuidora Vetor',
+    'DESCRIPTION': 'API REST para consulta e gerenciamento de clientes e vendedores.',
+    'VERSION': '1.0.0',
+    'SERVE_INCLUDE_SCHEMA': False,
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
