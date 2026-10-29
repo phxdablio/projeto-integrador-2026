@@ -1,4 +1,4 @@
-# 📘 DevLab Project API
+# 📘 Project API - Primora
 
 ![Python](https://img.shields.io/badge/Python-3.12+-3776AB?logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-5.0+-2BA977?logo=django&logoColor=white)
@@ -66,3 +66,105 @@ O sistema organiza o acesso aos dados cadastrais e operacionais, estabelecendo r
 ## Estrutura do projeto
 
 **(...)**
+
+## Diagrama de banco de dados
+
+## Diagrama ER 
+### Cliente
+
+| Campo | Tipo | Descrição |
+|---|---|---|
+| id_cliente | PK (int) | Identificador único do cliente |
+| razao_social | CharField | Razão social do cliente |
+| cnpj_normalizado | CharField | CNPJ do cliente, sem caracteres especiais |
+| telefone_normalizado | CharField | Telefone do cliente em formato padronizado |
+| email | EmailField | Endereço de e-mail do cliente |
+| bairro_normalizado | CharField | Bairro do cliente em formato padronizado |
+| cep_normalizado | CharField | CEP do cliente, sem caracteres especiais |
+| data_cadastro_normalizado | DateField | Data de cadastro do cliente |
+| vendedor_id | FK (int) | Identificador do vendedor responsável pelo cliente |
+
+### Vendedor
+
+| Campo | Tipo | Descrição |
+|---|---|---|
+| id_vendedor | PK (int) | Identificador único do vendedor |
+| nome_vendedor | CharField | Nome do vendedor |
+
+
+## Relacionamentos
+
+- **Vendedor (1) ↔ (N) Cliente**  
+  Um vendedor pode ser responsável por vários clientes, mas cada cliente está associado a um único vendedor.
+
+---
+
+
+## Representação Visual em Texto
+
+**Entidades principais:**
+
+- **Vendedor** → pode ser responsável por vários clientes.
+- **Cliente** → possui informações cadastrais e está associado a um vendedor.
+
+**Relacionamentos:**
+
+- Vendedor ↔ Cliente → **1:N**
+
+## Documentação API
+
+A documentação interativa está disponível em:
+
+&bull; `/api/docs/`
+&bull; `/api/docs/redoc/`
+
+| Método | Endpoint | Descrição | Autenticação |
+|---|---|---|---|
+| CRUD | `/api/clientes/` | Gerenciamento de clientes | Requerida |
+| GET | `/api/clientes/{id}/` | Detalhes de um cliente específico | Requerida |
+| GET | `/api/clientes/bairro/{nome}/` | Lista clientes por bairro | Requerida |
+| GET | `/api/clientes/vendedor/{id}/` | Lista clientes por vendedor | Requerida |
+| CRUD | `/api/vendedores/` | Gerenciamento de vendedores | Requerida |
+| GET | `/api/vendedores/{id}/clientes/` | Lista clientes de um vendedor específico | Requerida |
+| POST | `/api/auth/token/` | Autenticação via token | Não requerida |
+
+## Configuração do ambiente
+
+1. **Clone o repositório:**
+
+   ```bash
+   git clone https://github.com/phxdablio/projeto-integrador-2026.git
+   cd projeto_integrador_2026
+   ```
+
+2. **Crie um ambiente virtual:**
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Linux/Mac
+   venv\Scripts\activate     # Windows
+   ```
+
+3. **Instale as dependências:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Configure as variáveis de ambiente:**
+
+   ```bash
+   cp .env.example .env
+   # Edite .env com suas credenciais
+   ```
+
+5. **Aplique as migrações e inicie o servidor:**
+   
+   ```bash
+   python manage.py migrate
+   python manage.py createsuperuser
+   python manage.py runserver
+   ```
+
+
+   ```
