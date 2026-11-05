@@ -76,45 +76,42 @@ O sistema organiza o acesso aos dados cadastrais e operacionais, estabelecendo r
 
 ## Estrutura do projeto
 
-```bash
+
+## Estrutura do Projeto
+
+```text
 projeto_api/
 ├── manage.py
 ├── requirements.txt
 ├── db.sqlite3
 ├── config/
+│   ├── __init__.py
 │   ├── settings.py
 │   ├── urls.py
 │   ├── asgi.py
 │   └── wsgi.py
-├── clientes/
-│   ├── models.py
-│   ├── views.py
-│   ├── serializers.py
-│   ├── urls.py
+├── distribuidora/
+│   ├── __init__.py
 │   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── serializers.py
+│   ├── views.py
+│   ├── urls.py
 │   ├── tests.py
 │   └── migrations/
-├── vendedores/
-│   ├── models.py
-│   ├── views.py
-│   ├── serializers.py
-│   ├── urls.py
-│   ├── admin.py
-│   ├── tests.py
-│   └── migrations/
+│       └── __init__.py
 └── docs/
     └── database_diagram.png
 ```
 
-&bull; **config/ →** configurações principais do Django, incluindo banco de dados, autenticação e rotas globais da API.
-
-&bull; **clientes/ →** aplicação responsável pelo cadastro, consulta, atualização e exclusão de clientes, além dos filtros por bairro e vendedor.
-
-&bull; **vendedores/ →** aplicação responsável pelo gerenciamento de vendedores e pela consulta de seus respectivos clientes.
-
-&bull; **db.sqlite3 →** arquivo do banco de dados SQLite que armazena os registros.
-
-&bull; **docs/ →** documentação auxiliar do projeto, incluindo o Diagrama Entidade-Relacionamento (DER).
+- **config/** → configurações principais do Django, incluindo autenticação, banco de dados e rotas da API.
+- **distribuidora/** → aplicação principal responsável pelo gerenciamento de clientes e vendedores.
+- **migrations/** → arquivos de migração do banco de dados.
+- **tests.py** → testes automatizados da aplicação.
+- **db.sqlite3** → banco de dados SQLite.
+- **docs/** → documentação auxiliar do projeto.
+- **requirements.txt** → dependências necessárias para executar o projeto.
 
 
 ## Diagrama de banco de dados
