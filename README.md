@@ -121,7 +121,7 @@ projeto_api/
 
 | Campo | Tipo | Descrição |
 |---|---|---|
-| id_cliente | PK (int) | Identificador único do cliente |
+| id_cliente | PK (CharField) | Identificador único do cliente |
 | razao_social | CharField | Razão social do cliente |
 | cnpj_normalizado | CharField | CNPJ do cliente, sem caracteres especiais |
 | telefone_normalizado | CharField | Telefone do cliente em formato padronizado |
