@@ -1,0 +1,26 @@
+﻿id_cliente;campo;valor_original;valor_tratado;criterio;fonte;cep_consultado
+CLI0002;bairro_informado;Sul (Águas Claras);Sul (Águas Claras);"Divergência entre bairro informado e bairro retornado pelo ViaCEP; valor original preservado";cache;72140010
+CLI0003;bairro_informado;Taguatinga - Df;Taguatinga - Df;"Divergência entre bairro informado e bairro retornado pelo ViaCEP; valor original preservado";cache;72140010
+CLI0004;bairro_informado;Águas Claras;Águas Claras;"Divergência entre bairro informado e bairro retornado pelo ViaCEP; valor original preservado";cache;71929000
+CLI0008;bairro_informado;V. Pires;V. Pires;"Divergência entre bairro informado e bairro retornado pelo ViaCEP; valor original preservado";cache;72006400
+CLI0009;bairro_informado;Águas Claras;Águas Claras;"Divergência entre bairro informado e bairro retornado pelo ViaCEP; valor original preservado";cache;71926750
+CLI0010;bairro_informado;Águas Claras/Df;Águas Claras/Df;"Divergência entre bairro informado e bairro retornado pelo ViaCEP; valor original preservado";cache;71950000
+CLI0011;bairro_informado;Vicente Pires;Vicente Pires;"Divergência entre bairro informado e bairro retornado pelo ViaCEP; valor original preservado";cache;72006400
+CLI0012;bairro_informado;Aguas Claras - Df;Aguas Claras - Df;"Divergência entre bairro informado e bairro retornado pelo ViaCEP; valor original preservado";cache;71950000
+CLI0015;bairro_informado;Águas Claras;Águas Claras;"Divergência entre bairro informado e bairro retornado pelo ViaCEP; valor original preservado";cache;71926750
+CLI0016;bairro_informado;Vicente Pires - Df;Vicente Pires - Df;"Divergência entre bairro informado e bairro retornado pelo ViaCEP; valor original preservado";cache;72006400
+CLI0018;bairro_informado;Vte Pires;Vte Pires;"Divergência entre bairro informado e bairro retornado pelo ViaCEP; valor original preservado";cache;72006530
+CLI0020;bairro_informado;Taguatinga - Df;Taguatinga - Df;"Divergência entre bairro informado e bairro retornado pelo ViaCEP; valor original preservado";cache;72130010
+CLI0021;bairro_informado;Taguatinga Sul;Taguatinga Sul;"Divergência entre bairro informado e bairro retornado pelo ViaCEP; valor original preservado";cache;72140010
+CLI0022;bairro_informado;Taguatinga;Taguatinga;"Divergência entre bairro informado e bairro retornado pelo ViaCEP; valor original preservado";cache;72110010
+CLI0023;bairro_informado;Taguatinga - Df;Taguatinga - Df;"Divergência entre bairro informado e bairro retornado pelo ViaCEP; valor original preservado";cache;72140010
+CLI0028;bairro_informado;Águas Claras;Águas Claras;"Divergência entre bairro informado e bairro retornado pelo ViaCEP; valor original preservado";cache;71900100
+CLI0032;bairro_informado;Águas Claras;Águas Claras;"Divergência entre bairro informado e bairro retornado pelo ViaCEP; valor original preservado";cache;71950000
+CLI0035;bairro_informado;Águas Claras;Águas Claras;"Divergência entre bairro informado e bairro retornado pelo ViaCEP; valor original preservado";cache;71925000
+CLI0036;bairro_informado;Taguatinga Sul;Taguatinga Sul;"Divergência entre bairro informado e bairro retornado pelo ViaCEP; valor original preservado";cache;72130010
+CLI0037;bairro_informado;Águas Claras;Águas Claras;"Divergência entre bairro informado e bairro retornado pelo ViaCEP; valor original preservado";cache;71929000
+CLI0038;bairro_informado;Vte Pires;Vte Pires;"Divergência entre bairro informado e bairro retornado pelo ViaCEP; valor original preservado";cache;72006530
+CLI0042;bairro_informado;Águas Claras Norte;Águas Claras Norte;"Divergência entre bairro informado e bairro retornado pelo ViaCEP; valor original preservado";cache;71906500
+CLI0043;bairro_informado;Águas Claras Norte;Águas Claras Norte;"Divergência entre bairro informado e bairro retornado pelo ViaCEP; valor original preservado";cache;71901010
+CLI0044;bairro_informado;Águas Claras/Df;Águas Claras/Df;"Divergência entre bairro informado e bairro retornado pelo ViaCEP; valor original preservado";cache;71900100
+CLI0045;bairro_informado;Águas Claras;Águas Claras;"Divergência entre bairro informado e bairro retornado pelo ViaCEP; valor original preservado";cache;71900100
