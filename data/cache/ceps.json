@@ -1,0 +1,122 @@
+{
+  "71926750": {
+    "status": "encontrado",
+    "cep_consultado": "71926750",
+    "cep_api": "71926750",
+    "logradouro_api": "Rua Baracat",
+    "bairro_api": "Sul (Águas Claras)",
+    "cidade_api": "Brasília",
+    "uf_api": "DF"
+  },
+  "72140010": {
+    "status": "encontrado",
+    "cep_consultado": "72140010",
+    "cep_api": "72140010",
+    "logradouro_api": "Quadra QNJ 1",
+    "bairro_api": "Taguatinga Norte",
+    "cidade_api": "Brasília",
+    "uf_api": "DF"
+  },
+  "71929000": {
+    "status": "encontrado",
+    "cep_consultado": "71929000",
+    "cep_api": "71929000",
+    "logradouro_api": "Rua 28",
+    "bairro_api": "Sul (Águas Claras)",
+    "cidade_api": "Brasília",
+    "uf_api": "DF"
+  },
+  "00000000": {
+    "status": "cep_nao_encontrado",
+    "cep_consultado": "00000000"
+  },
+  "72006400": {
+    "status": "encontrado",
+    "cep_consultado": "72006400",
+    "cep_api": "72006400",
+    "logradouro_api": "Rua Rua 6",
+    "bairro_api": "Setor Habitacional Vicente Pires",
+    "cidade_api": "Brasília",
+    "uf_api": "DF"
+  },
+  "71950000": {
+    "status": "encontrado",
+    "cep_consultado": "71950000",
+    "cep_api": "71950000",
+    "logradouro_api": "Quadra QS 1",
+    "bairro_api": "Areal",
+    "cidade_api": "Brasília",
+    "uf_api": "DF"
+  },
+  "72110800": {
+    "status": "cep_nao_encontrado",
+    "cep_consultado": "72110800"
+  },
+  "72006530": {
+    "status": "encontrado",
+    "cep_consultado": "72006530",
+    "cep_api": "72006530",
+    "logradouro_api": "Rua Rua 6 Chácara 259",
+    "bairro_api": "Setor Habitacional Vicente Pires",
+    "cidade_api": "Brasília",
+    "uf_api": "DF"
+  },
+  "72130010": {
+    "status": "encontrado",
+    "cep_consultado": "72130010",
+    "cep_api": "72130010",
+    "logradouro_api": "Quadra QNG 1",
+    "bairro_api": "Taguatinga Norte",
+    "cidade_api": "Brasília",
+    "uf_api": "DF"
+  },
+  "72110010": {
+    "status": "encontrado",
+    "cep_consultado": "72110010",
+    "cep_api": "72110010",
+    "logradouro_api": "Quadra QNA 1",
+    "bairro_api": "Taguatinga Norte",
+    "cidade_api": "Brasília",
+    "uf_api": "DF"
+  },
+  "71900100": {
+    "status": "encontrado",
+    "cep_consultado": "71900100",
+    "cep_api": "71900100",
+    "logradouro_api": "Avenida das Castanheiras",
+    "bairro_api": "Norte (Águas Claras)",
+    "cidade_api": "Brasília",
+    "uf_api": "DF"
+  },
+  "71900000": {
+    "status": "cep_nao_encontrado",
+    "cep_consultado": "71900000"
+  },
+  "71901010": {
+    "status": "encontrado",
+    "cep_consultado": "71901010",
+    "cep_api": "71901010",
+    "logradouro_api": "Quadra 301 Rua A Conjunto 1",
+    "bairro_api": "Norte (Águas Claras)",
+    "cidade_api": "Brasília",
+    "uf_api": "DF"
+  },
+  "71925000": {
+    "status": "encontrado",
+    "cep_consultado": "71925000",
+    "cep_api": "71925000",
+    "logradouro_api": "Quadra 205",
+    "bairro_api": "Sul (Águas Claras)",
+    "cidade_api": "Brasília",
+    "uf_api": "DF"
+  },
+  "71906500": {
+    "status": "encontrado",
+    "cep_consultado": "71906500",
+    "cep_api": "71906500",
+    "logradouro_api": "Avenida Parque Águas Claras",
+    "bairro_api": "Norte (Águas Claras)",
+    "cidade_api": "Brasília",
+    "uf_api": "DF"
+  }
+}
