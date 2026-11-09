@@ -1,0 +1,13 @@
+# Ambiente Virtual (NUNCA comitar)
+venv/
+.venv/
+env/
+
+# Cache do Python e arquivos temporários
+__pycache__/
+*.pyc
+*.sqlite3
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db

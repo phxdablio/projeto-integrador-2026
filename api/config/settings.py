@@ -40,7 +40,9 @@ INSTALLED_APPS = [
     'distribuidora',
     'rest_framework',
     'drf_spectacular',
+    'rest_framework.authtoken',
 ]
+
 # Configurações do Django REST Framework
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
