@@ -111,14 +111,3 @@ def __str__(self):
 
 - `__str__()` → define a representação textual de cada cliente.
 - Retorna a razão social cadastrada.
-
-## Resumindo
-
-- **Vendedor** → armazena os vendedores cadastrados na distribuidora.
-- **Cliente** → armazena as informações cadastrais dos clientes.
-- **Vendedor ↔ Cliente** → relacionamento 1:N.
-- **ForeignKey** → associa cada cliente a um vendedor.
-- **PROTECT** → impede a exclusão de vendedores que possuam clientes vinculados.
-- **related_name="clientes"** → permite consultar os clientes de um vendedor.
-- **SQLite** → banco de dados utilizado para armazenar as entidades e seus relacionamentos.
-
