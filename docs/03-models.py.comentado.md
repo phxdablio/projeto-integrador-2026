@@ -1,5 +1,5 @@
 
-# models.py
+# models.py - Arquivo comentado
 
 ```python
 from django.db import models
