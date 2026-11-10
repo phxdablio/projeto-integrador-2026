@@ -84,12 +84,3 @@ O `VendedorSerializer` permite:
 1. Validar os dados enviados para cadastro ou atualização.
 2. Utilizar as restrições de campos estabelecidas no modelo `Vendedor`.
 
-## 5. Resumindo
-
-- **Serializers** → realizam a conversão e validação dos dados utilizados pela API.
-- **ModelSerializer** → cria automaticamente campos e validações básicas a partir dos modelos Django.
-- **ClienteSerializer** → gerencia a serialização e validação dos dados da entidade `Cliente`.
-- **VendedorSerializer** → gerencia a serialização e validação dos dados da entidade `Vendedor`.
-- **is_valid()** → verifica a validade dos dados recebidos.
-- **save()** → permite persistir os dados validados no banco de dados.
-
