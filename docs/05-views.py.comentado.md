@@ -140,11 +140,3 @@ def por_vendedor(self, request, vendedor_id=None):
 - `self.get_serializer()` → converte os registros encontrados para uma representação serializável.
 - `Response()` → retorna a lista de clientes.
 
-
-## 6. Resumindo
-
-- **VendedorViewSet** → gerencia vendedores e consulta seus clientes.
-- **ClienteViewSet** → gerencia clientes e disponibiliza filtros.
-- **ModelViewSet** → implementa as operações CRUD.
-- **@action** → permite criar endpoints personalizados.
-- **DjangoFilterBackend** → habilita filtros por parâmetros de consulta.
