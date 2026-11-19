@@ -74,8 +74,6 @@ O sistema organiza o acesso aos dados cadastrais e operacionais, estabelecendo r
 | **sqlparse** | `0.6.0` | Parsing e formatação de consultas SQL pelo Django |
 | **asgiref** | `3.13.0` | Suporte assíncrono padrão (ASGI) para o Django |
 
-## Estrutura do projeto
-
 
 ## Estrutura do Projeto
 
@@ -115,6 +113,12 @@ projeto_api/
 
 
 ## Diagrama de banco de dados
+
+### Diagrama conceitual
+<img width="1321" height="706" alt="image" src="https://github.com/user-attachments/assets/3cc0dcd1-381f-4e17-910d-368b27531306" />
+
+### Diagrama lógico
+<img width="1067" height="641" alt="image" src="https://github.com/user-attachments/assets/9bdcf593-3a64-4c96-aa88-d9ee0b5a5868" />
 
 ## Diagrama ER 
 ### Cliente
