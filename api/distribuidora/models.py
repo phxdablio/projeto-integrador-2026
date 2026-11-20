@@ -25,5 +25,12 @@ class Cliente(models.Model):
         related_name='clientes'
     )
 
+<<<<<<< Updated upstream
 def _str_(self):
     return self.razao_social
+=======
+    def __str__(self):
+        return self.razao_social
+
+
+>>>>>>> Stashed changes
