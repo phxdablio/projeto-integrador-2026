@@ -77,39 +77,90 @@ O sistema organiza o acesso aos dados cadastrais e operacionais, estabelecendo r
 
 ## Estrutura do Projeto
 
+
+## Estrutura do Projeto
+
 ```text
-projeto_api/
-├── manage.py
-├── requirements.txt
+projeto-integrador-2026/
+│
+├── api/
+│   ├── config/
+│   │   ├── __pycache__/
+│   │   ├── __init__.py
+│   │   ├── asgi.py
+│   │   ├── settings.py
+│   │   ├── urls.py
+│   │   └── wsgi.py
+│   │
+│   ├── distribuidora/
+│   │   ├── __pycache__/
+│   │   ├── migrations/
+│   │   ├── __init__.py
+│   │   ├── admin.py
+│   │   ├── apps.py
+│   │   ├── models.py
+│   │   ├── normalizacao.py
+│   │   ├── serializers.py
+│   │   ├── tests.py
+│   │   └── views.py
+│   │
+│   ├── db.sqlite3
+│   └── manage.py
+│
+├── data/
+│   ├── cache/
+│   ├── processed/
+│   ├── raw/
+│   ├── .gitkeep
+│   ├── clientes_distribuidora_vetor.csv
+│   └── clientes_tratados.csv
+│
+├── docs/
+│   └── .gitkeep
+│
+├── etl/
+│   ├── __pycache__/
+│   ├── integracao/
+│   ├── .gitkeep
+│   ├── auditoria.py
+│   ├── carga_sql.py
+│   ├── carregarDados.py
+│   ├── enriquecimento.py
+│   ├── extracao.py
+│   ├── limpeza.py
+│   ├── pipeline.py
+│   └── processarDados.ipynb
+│
+├── reports/
+│   ├── auditoria_integracao_cep.csv
+│   └── auditoria_limpeza.csv
+│
+├── tests/
+│   └── .gitkeep
+│
+├── venv/
+│   ├── Include/
+│   ├── Lib/
+│   ├── Scripts/
+│   ├── .gitignore
+│   └── pyvenv.cfg
+│
 ├── db.sqlite3
-├── config/
-│   ├── __init__.py
-│   ├── settings.py
-│   ├── urls.py
-│   ├── asgi.py
-│   └── wsgi.py
-├── distribuidora/
-│   ├── __init__.py
-│   ├── admin.py
-│   ├── apps.py
-│   ├── models.py
-│   ├── serializers.py
-│   ├── views.py
-│   ├── urls.py
-│   ├── tests.py
-│   └── migrations/
-│       └── __init__.py
-└── docs/
-    └── database_diagram.png
+└── requirements.txt
 ```
 
-- **config/** → configurações principais do Django, incluindo autenticação, banco de dados e rotas da API.
-- **distribuidora/** → aplicação principal responsável pelo gerenciamento de clientes e vendedores.
-- **migrations/** → arquivos de migração do banco de dados.
-- **tests.py** → testes automatizados da aplicação.
-- **db.sqlite3** → banco de dados SQLite.
-- **docs/** → documentação auxiliar do projeto.
-- **requirements.txt** → dependências necessárias para executar o projeto.
+### Descrição dos Diretórios
+
+- **api/** → aplicação Django REST responsável pelo gerenciamento de clientes e vendedores.
+- **config/** → configurações do Django, autenticação, banco de dados e rotas principais.
+- **distribuidora/** → modelos, serializers, views, administração, testes e normalização dos dados.
+- **data/** → armazenamento dos arquivos CSV originais, processados e auxiliares.
+- **docs/** → documentação técnica do projeto.
+- **etl/** → scripts do processo de extração, transformação e carga dos dados.
+- **tests/** → diretório reservado para testes adicionais do projeto.
+- **venv/** → ambiente virtual Python que contém as dependências instaladas.
+- **requirements.txt** → lista de dependências necessárias para executar o projeto.
+
 
 
 ## Diagrama de banco de dados
