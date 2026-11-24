@@ -1,0 +1,163 @@
+﻿linha_origem;id_cliente;campo;valor_original;valor_tratado;criterio
+2;CLI0001;cnpj;84.959.310/3413-16;84959310341316;Remoção de caracteres não numéricos
+2;CLI0001;cep;71926-750;71926750;Remoção de caracteres não numéricos
+3;CLI0002;cnpj;28.327.648/3503-05;28327648350305;Remoção de caracteres não numéricos
+3;CLI0002;telefone;+55 61 95386-2084;5561953862084;Remoção de caracteres não numéricos
+3;CLI0002;cep;72140-010;72140010;Remoção de caracteres não numéricos
+3;CLI0002;bairro_informado;Sul (Aguas Claras);Sul (Águas Claras);Padronização por mapa explícito de variações conhecidas
+4;CLI0003;cnpj;42.388.496/9653-28;42388496965328;Remoção de caracteres não numéricos
+4;CLI0003;telefone;+55 61 92489-1771;5561924891771;Remoção de caracteres não numéricos
+4;CLI0003;cep;72140-010;72140010;Remoção de caracteres não numéricos
+4;CLI0003;bairro_informado;Taguatinga - DF;Taguatinga - Df;Padronização por mapa explícito de variações conhecidas
+4;CLI0003;data_cadastro;28/02/2022;2022-02-28;"Conversão para YYYY-MM-DD; valor inválido fica vazio"
+5;CLI0004;cnpj;69.784.801/8451-46;69784801845146;Remoção de caracteres não numéricos
+5;CLI0004;telefone;(61) 98433-1053;61984331053;Remoção de caracteres não numéricos
+5;CLI0004;cep;71929-000;71929000;Remoção de caracteres não numéricos
+5;CLI0004;bairro_informado;aguas claras;Águas Claras;Padronização por mapa explícito de variações conhecidas
+5;CLI0004;data_cadastro;Dec 24, 2023;;"Conversão para YYYY-MM-DD; valor inválido fica vazio"
+6;CLI0005;cnpj;89.325.288/0957-01;89325288095701;Remoção de caracteres não numéricos
+6;CLI0005;cep;00000-000;00000000;Remoção de caracteres não numéricos
+6;CLI0005;bairro_informado;Taguatinga/DF;Taguatinga/Df;Padronização por mapa explícito de variações conhecidas
+6;CLI0005;data_cadastro;08-01-2022;2022-01-08;"Conversão para YYYY-MM-DD; valor inválido fica vazio"
+7;CLI0006;cnpj;82.278.248/9638-34;82278248963834;Remoção de caracteres não numéricos
+7;CLI0006;telefone;+55 61 97118-8177;5561971188177;Remoção de caracteres não numéricos
+8;CLI0007;cnpj;83.930.103/1051-83;83930103105183;Remoção de caracteres não numéricos
+8;CLI0007;bairro_informado;TAGUATINGA;Taguatinga;Padronização por mapa explícito de variações conhecidas
+9;CLI0008;cnpj;31.165.667/0106-51;31165667010651;Remoção de caracteres não numéricos
+9;CLI0008;telefone;(61) 94139-4116;61941394116;Remoção de caracteres não numéricos
+9;CLI0008;cep;72006-400;72006400;Remoção de caracteres não numéricos
+9;CLI0008;data_cadastro;Aug 18, 2022;;"Conversão para YYYY-MM-DD; valor inválido fica vazio"
+10;CLI0009;cnpj;10.801.326/7736-02;10801326773602;Remoção de caracteres não numéricos
+10;CLI0009;telefone;+55 61 91035-7396;5561910357396;Remoção de caracteres não numéricos
+10;CLI0009;cep;71926-750;71926750;Remoção de caracteres não numéricos
+10;CLI0009;bairro_informado;Aguas claras;Águas Claras;Padronização por mapa explícito de variações conhecidas
+11;CLI0010;cnpj;34.309.805/0097-88;34309805009788;Remoção de caracteres não numéricos
+11;CLI0010;telefone;(61) 91931-9320;61919319320;Remoção de caracteres não numéricos
+11;CLI0010;cep;71950-000;71950000;Remoção de caracteres não numéricos
+11;CLI0010;bairro_informado;Águas Claras/DF;Águas Claras/Df;Padronização por mapa explícito de variações conhecidas
+11;CLI0010;data_cadastro;03/03/2021;2021-03-03;"Conversão para YYYY-MM-DD; valor inválido fica vazio"
+12;CLI0011;cnpj;93.990.916/9985-43;93990916998543;Remoção de caracteres não numéricos
+12;CLI0011;cep;72006-400;72006400;Remoção de caracteres não numéricos
+13;CLI0012;cnpj;79.911.838/4251-35;79911838425135;Remoção de caracteres não numéricos
+13;CLI0012;cep;71950-000;71950000;Remoção de caracteres não numéricos
+13;CLI0012;bairro_informado;Aguas Claras - DF;Aguas Claras - Df;Padronização por mapa explícito de variações conhecidas
+14;CLI0013;cnpj;24.118.244/9353-48;24118244935348;Remoção de caracteres não numéricos
+14;CLI0013;telefone;+55 61 95114-1832;5561951141832;Remoção de caracteres não numéricos
+14;CLI0013;bairro_informado;guara - df;Guara - Df;Padronização por mapa explícito de variações conhecidas
+15;CLI0014;telefone;(61) 98041-3088;61980413088;Remoção de caracteres não numéricos
+15;CLI0014;data_cadastro;02-05-2023;2023-05-02;"Conversão para YYYY-MM-DD; valor inválido fica vazio"
+16;CLI0015;cnpj;69.232.260/2563-42;69232260256342;Remoção de caracteres não numéricos
+16;CLI0015;telefone;(61) 3491-1634;6134911634;Remoção de caracteres não numéricos
+16;CLI0015;cep;71926-750;71926750;Remoção de caracteres não numéricos
+16;CLI0015;bairro_informado;AGUAS CLARAS;Águas Claras;Padronização por mapa explícito de variações conhecidas
+17;CLI0016;telefone;(61) 95349-1626;61953491626;Remoção de caracteres não numéricos
+17;CLI0016;cep;72006-400;72006400;Remoção de caracteres não numéricos
+17;CLI0016;bairro_informado;Vicente Pires - DF;Vicente Pires - Df;Padronização por mapa explícito de variações conhecidas
+18;CLI0017;cnpj;93.406.088/3561-59;93406088356159;Remoção de caracteres não numéricos
+18;CLI0017;cep;72110-800;72110800;Remoção de caracteres não numéricos
+18;CLI0017;data_cadastro;Feb 28, 2023;;"Conversão para YYYY-MM-DD; valor inválido fica vazio"
+19;CLI0018;cnpj;82.366.299/4680-44;82366299468044;Remoção de caracteres não numéricos
+19;CLI0018;telefone;(61) 98043-6279;61980436279;Remoção de caracteres não numéricos
+19;CLI0018;cep;72006-530;72006530;Remoção de caracteres não numéricos
+19;CLI0018;data_cadastro;15-08-2024;2024-08-15;"Conversão para YYYY-MM-DD; valor inválido fica vazio"
+20;CLI0019;telefone;61 3970-2193;6139702193;Remoção de caracteres não numéricos
+20;CLI0019;bairro_informado;Guará II;Guará Ii;Padronização por mapa explícito de variações conhecidas
+21;CLI0020;cnpj;20.163.287/0831-72;20163287083172;Remoção de caracteres não numéricos
+21;CLI0020;telefone;+55 61 99702-6198;5561997026198;Remoção de caracteres não numéricos
+21;CLI0020;cep;72130-010;72130010;Remoção de caracteres não numéricos
+21;CLI0020;bairro_informado;Taguatinga - DF;Taguatinga - Df;Padronização por mapa explícito de variações conhecidas
+21;CLI0020;data_cadastro;25/08/2025;2025-08-25;"Conversão para YYYY-MM-DD; valor inválido fica vazio"
+22;CLI0021;cnpj;77.434.873/4714-34;77434873471434;Remoção de caracteres não numéricos
+22;CLI0021;cep;72140-010;72140010;Remoção de caracteres não numéricos
+22;CLI0021;bairro_informado;taguatinga sul;Taguatinga Sul;Padronização por mapa explícito de variações conhecidas
+22;CLI0021;data_cadastro;18/02/2022;2022-02-18;"Conversão para YYYY-MM-DD; valor inválido fica vazio"
+23;CLI0022;telefone;+55 61 91096-6763;5561910966763;Remoção de caracteres não numéricos
+23;CLI0022;cep;72110-010;72110010;Remoção de caracteres não numéricos
+23;CLI0022;bairro_informado;TAGUATINGA;Taguatinga;Padronização por mapa explícito de variações conhecidas
+24;CLI0023;telefone;+55 61 91444-2375;5561914442375;Remoção de caracteres não numéricos
+24;CLI0023;cep;72140-010;72140010;Remoção de caracteres não numéricos
+24;CLI0023;bairro_informado;Taguatinga - DF;Taguatinga - Df;Padronização por mapa explícito de variações conhecidas
+24;CLI0023;data_cadastro;jul 21, 2022;;"Conversão para YYYY-MM-DD; valor inválido fica vazio"
+25;CLI0024;cnpj;37.556.464/1708-05;37556464170805;Remoção de caracteres não numéricos
+25;CLI0024;telefone;(61) 92124-1659;61921241659;Remoção de caracteres não numéricos
+25;CLI0024;data_cadastro;25-01-2022;2022-01-25;"Conversão para YYYY-MM-DD; valor inválido fica vazio"
+26;CLI0025;telefone;(61) 3692-1420;6136921420;Remoção de caracteres não numéricos
+26;CLI0025;bairro_informado;Taguatinga/DF;Taguatinga/Df;Padronização por mapa explícito de variações conhecidas
+26;CLI0025;data_cadastro;10/10/2024;2024-10-10;"Conversão para YYYY-MM-DD; valor inválido fica vazio"
+27;CLI0026;telefone;+55 61 92729-8102;5561927298102;Remoção de caracteres não numéricos
+27;CLI0026;bairro_informado;VICENTE PIRES;Vicente Pires;Padronização por mapa explícito de variações conhecidas
+28;CLI0027;cnpj;87.769.453/1473-79;87769453147379;Remoção de caracteres não numéricos
+28;CLI0027;telefone;61 3784-7209;6137847209;Remoção de caracteres não numéricos
+29;CLI0028;cnpj;49.480.831/3678-37;49480831367837;Remoção de caracteres não numéricos
+29;CLI0028;telefone;+55 61 98342-1282;5561983421282;Remoção de caracteres não numéricos
+29;CLI0028;cep;71900-100;71900100;Remoção de caracteres não numéricos
+29;CLI0028;bairro_informado;Aguas claras;Águas Claras;Padronização por mapa explícito de variações conhecidas
+29;CLI0028;data_cadastro;03-05-2022;2022-05-03;"Conversão para YYYY-MM-DD; valor inválido fica vazio"
+30;CLI0029;cnpj;85.685.574/4431-35;85685574443135;Remoção de caracteres não numéricos
+30;CLI0029;telefone;(61) 3860-9779;6138609779;Remoção de caracteres não numéricos
+30;CLI0029;cep;71900-000;71900000;Remoção de caracteres não numéricos
+31;CLI0030;cnpj;34.352.408/2400-84;34352408240084;Remoção de caracteres não numéricos
+31;CLI0030;telefone;(61) 99042-2680;61990422680;Remoção de caracteres não numéricos
+31;CLI0030;cep;71901-010;71901010;Remoção de caracteres não numéricos
+32;CLI0031;cnpj;04.711.671/9022-94;04711671902294;Remoção de caracteres não numéricos
+32;CLI0031;telefone;(61) 3354-2940;6133542940;Remoção de caracteres não numéricos
+32;CLI0031;data_cadastro;18/07/2025;2025-07-18;"Conversão para YYYY-MM-DD; valor inválido fica vazio"
+33;CLI0032;cnpj;74.964.990/9133-41;74964990913341;Remoção de caracteres não numéricos
+33;CLI0032;telefone;(61) 94929-3847;61949293847;Remoção de caracteres não numéricos
+33;CLI0032;cep;71950-000;71950000;Remoção de caracteres não numéricos
+33;CLI0032;bairro_informado;aguas claras;Águas Claras;Padronização por mapa explícito de variações conhecidas
+33;CLI0032;data_cadastro;Feb 18, 2022;;"Conversão para YYYY-MM-DD; valor inválido fica vazio"
+34;CLI0033;cnpj;03.447.134/9361-83;03447134936183;Remoção de caracteres não numéricos
+34;CLI0033;telefone;(61) 95352-3330;61953523330;Remoção de caracteres não numéricos
+34;CLI0033;cep;72110-800;72110800;Remoção de caracteres não numéricos
+34;CLI0033;bairro_informado;Vicente Pires - DF;Vicente Pires - Df;Padronização por mapa explícito de variações conhecidas
+34;CLI0033;data_cadastro;03-01-2022;2022-01-03;"Conversão para YYYY-MM-DD; valor inválido fica vazio"
+35;CLI0034;cnpj;17.464.887/7190-65;17464887719065;Remoção de caracteres não numéricos
+35;CLI0034;telefone;61 3356-1423;6133561423;Remoção de caracteres não numéricos
+35;CLI0034;bairro_informado;Guará II;Guará Ii;Padronização por mapa explícito de variações conhecidas
+35;CLI0034;data_cadastro;Apr 3, 2025;;"Conversão para YYYY-MM-DD; valor inválido fica vazio"
+36;CLI0035;cnpj;02.787.429/6717-56;02787429671756;Remoção de caracteres não numéricos
+36;CLI0035;cep;71925-000;71925000;Remoção de caracteres não numéricos
+37;CLI0036;cnpj;07.154.516/8087-60;07154516808760;Remoção de caracteres não numéricos
+37;CLI0036;telefone;(61) 99494-6927;61994946927;Remoção de caracteres não numéricos
+37;CLI0036;cep;72130-010;72130010;Remoção de caracteres não numéricos
+37;CLI0036;bairro_informado;taguatinga sul;Taguatinga Sul;Padronização por mapa explícito de variações conhecidas
+38;CLI0037;cnpj;10.932.480/8613-17;10932480861317;Remoção de caracteres não numéricos
+38;CLI0037;telefone;(61) 3763-3522;6137633522;Remoção de caracteres não numéricos
+38;CLI0037;cep;71929-000;71929000;Remoção de caracteres não numéricos
+38;CLI0037;bairro_informado;Aguas claras;Águas Claras;Padronização por mapa explícito de variações conhecidas
+38;CLI0037;data_cadastro;Dec 16, 2023;;"Conversão para YYYY-MM-DD; valor inválido fica vazio"
+39;CLI0038;cnpj;78.263.982/1465-84;78263982146584;Remoção de caracteres não numéricos
+39;CLI0038;telefone;(61) 3389-5891;6133895891;Remoção de caracteres não numéricos
+39;CLI0038;cep;72006-530;72006530;Remoção de caracteres não numéricos
+39;CLI0038;data_cadastro;27/10/2025;2025-10-27;"Conversão para YYYY-MM-DD; valor inválido fica vazio"
+40;CLI0039;cnpj;58.867.533/9636-05;58867533963605;Remoção de caracteres não numéricos
+40;CLI0039;telefone;+55 61 97246-7325;5561972467325;Remoção de caracteres não numéricos
+40;CLI0039;cep;00000-000;00000000;Remoção de caracteres não numéricos
+40;CLI0039;bairro_informado;aguas claras;Águas Claras;Padronização por mapa explícito de variações conhecidas
+40;CLI0039;data_cadastro;22-11-2022;2022-11-22;"Conversão para YYYY-MM-DD; valor inválido fica vazio"
+41;CLI0040;cnpj;71.870.262/1745-96;71870262174596;Remoção de caracteres não numéricos
+41;CLI0040;telefone;(61) 3972-6383;6139726383;Remoção de caracteres não numéricos
+41;CLI0040;cep;00000-000;00000000;Remoção de caracteres não numéricos
+42;CLI0041;cnpj;13.431.611/7240-05;13431611724005;Remoção de caracteres não numéricos
+42;CLI0041;telefone;(61) 3400-6873;6134006873;Remoção de caracteres não numéricos
+42;CLI0041;cep;71901-010;71901010;Remoção de caracteres não numéricos
+42;CLI0041;bairro_informado;Norte (Aguas Claras);Norte (Águas Claras);Padronização por mapa explícito de variações conhecidas
+43;CLI0042;telefone;+55 61 95712-9955;5561957129955;Remoção de caracteres não numéricos
+43;CLI0042;cep;71906-500;71906500;Remoção de caracteres não numéricos
+43;CLI0042;data_cadastro;06/02/2024;2024-02-06;"Conversão para YYYY-MM-DD; valor inválido fica vazio"
+44;CLI0043;cnpj;43.671.369/5944-06;43671369594406;Remoção de caracteres não numéricos
+44;CLI0043;cep;71901-010;71901010;Remoção de caracteres não numéricos
+44;CLI0043;data_cadastro;nov 19, 2021;;"Conversão para YYYY-MM-DD; valor inválido fica vazio"
+45;CLI0044;telefone;(61) 3402-6352;6134026352;Remoção de caracteres não numéricos
+45;CLI0044;cep;71900-100;71900100;Remoção de caracteres não numéricos
+45;CLI0044;bairro_informado;Águas Claras/DF;Águas Claras/Df;Padronização por mapa explícito de variações conhecidas
+46;CLI0045;cnpj;47.451.712/3685-16;47451712368516;Remoção de caracteres não numéricos
+46;CLI0045;telefone;(61) 3370-9791;6133709791;Remoção de caracteres não numéricos
+46;CLI0045;cep;71900-100;71900100;Remoção de caracteres não numéricos
+46;CLI0045;bairro_informado;Aguas claras;Águas Claras;Padronização por mapa explícito de variações conhecidas
+46;CLI0045;data_cadastro;04/08/2023;2023-08-04;"Conversão para YYYY-MM-DD; valor inválido fica vazio"
+47;CLI0046;cnpj;37.098.593/1746-12;37098593174612;Remoção de caracteres não numéricos
+47;CLI0046;telefone;(61) 3138-5986;6131385986;Remoção de caracteres não numéricos
+47;CLI0046;bairro_informado;Guará II;Guará Ii;Padronização por mapa explícito de variações conhecidas
+48;CLI0047;cnpj;82.675.869/2617-96;82675869261796;Remoção de caracteres não numéricos
